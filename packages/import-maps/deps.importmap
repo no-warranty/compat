@@ -1,6 +1,6 @@
 {
   "imports": {
-    "foo": [
+    "./foo": [
       "./bar.js"
     ]
 
