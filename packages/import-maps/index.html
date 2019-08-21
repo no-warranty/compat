@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 
-<script type="importmap" src="./deps.importmap"></script>
+<script type="importmap">
+{
+  "imports": {
+    "./foo": [
+      "./bar.js"
+    ]
+
+  }
+}
+</script>
 
 
 <script type="module">
